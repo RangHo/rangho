@@ -61,7 +61,11 @@ def overlay_retirement_date(img: Image):
 
 def generate_banner():
     banner_files = glob.glob(get_resource("banner/*"))
+    
+    # The glob match is not sorted, apparently
+    banner_files.sort()
 
+    # List of PIL image frames
     processed_frames = []
 
     for file in banner_files:
@@ -79,7 +83,7 @@ def generate_banner():
             processed_frames.append(frame)
 
         except Exception:
-            pass
+            print(f"Unable to process {file}! Skipping the frame...")
     
     processed_frames[0].save(get_asset("banner.png"),
                              format="PNG",
