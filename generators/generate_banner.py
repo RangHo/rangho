@@ -3,8 +3,11 @@
 import os
 import sys
 import configparser
-import datetime
 import glob
+
+from datetime import datetime
+
+import pytz
 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -13,17 +16,20 @@ def get_resource(file: str):
     cwd = os.path.dirname(os.path.realpath(sys.argv[0]))
     return os.path.join(cwd, "..", "resources", file)
 
+
 def get_asset(file: str):
     cwd = os.path.dirname(os.path.realpath(sys.argv[0]))
     assets_dir = os.path.join(cwd, "..", "assets")
 
     if not os.path.exists(assets_dir):
         os.mkdir(assets_dir)
-    
+
     return os.path.join(assets_dir, file)
 
 
 def overlay_retirement_date(img: Image):
+    seoul_timezone = pytz.timezone('Asia/Seoul')
+
     # Find out how many days left until retirement
     config = configparser.ConfigParser()
     config.read(get_resource("settings.conf"))
@@ -31,14 +37,14 @@ def overlay_retirement_date(img: Image):
     retirement_date = datetime.datetime.strptime(
         config['data']['retirement_date'], "%Y-%m-%d"
     )
-    current_date = datetime.datetime.today()
+    current_date = datetime.now(seoul_timezone)
 
     days_left = (retirement_date - current_date).days
 
     # If not serving anymore, skip the whole thing
     if days_left < 0:
         return
-    
+
     # Setup a drawing object
     draw = ImageDraw.Draw(img)
     draw.fontmode = "0"
@@ -61,7 +67,7 @@ def overlay_retirement_date(img: Image):
 
 def generate_banner():
     banner_files = glob.glob(get_resource("banner/*"))
-    
+
     # The glob match is not sorted, apparently
     banner_files.sort()
 
@@ -84,13 +90,14 @@ def generate_banner():
 
         except Exception:
             print(f"Unable to process {file}! Skipping the frame...")
-    
+
     processed_frames[0].save(get_asset("banner.png"),
                              format="PNG",
                              save_all=True,
                              append_images=processed_frames[1:],
                              duration=100,
                              loop=0)
+
 
 if __name__ == "__main__":
     generate_banner()

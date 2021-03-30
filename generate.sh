@@ -9,10 +9,13 @@ fi
 github_token="$1"
 
 log() {
-    printf "$(tput setaf 3)%s$(tput sgr0)\n" "$@"
+    printf "\033[33m%s\033[39m\n" "$@"
 }
 
 setup() {
+    # Install Python dependencies
+    pip install -r requirements.txt
+    
     # Initialize git
     log "Cloning the target repository..."
     git clone https://github.com/RangHo/rangho deploy
