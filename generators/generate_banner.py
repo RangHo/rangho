@@ -34,7 +34,7 @@ def overlay_retirement_date(img: Image):
     config = configparser.ConfigParser()
     config.read(get_resource("settings.conf"))
 
-    retirement_date = datetime.datetime.strptime(
+    retirement_date = datetime.strptime(
         config['data']['retirement_date'], "%Y-%m-%d"
     )
     current_date = datetime.now(seoul_timezone)
