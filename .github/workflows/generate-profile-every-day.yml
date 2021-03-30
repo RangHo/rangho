@@ -1,14 +1,9 @@
-name: Generate Profile README
+name: Generate profile README every day
  
 on:
   # Trigger this workflow every day (midnight in KST)...
   schedule:
     - cron: '0 15 * * *'
-    
-  # or on every push event on template branch...
-  push:
-    branches:
-     - template
 
   # Allow running this workflow manually from the Actions tab
   workflow_dispatch:
