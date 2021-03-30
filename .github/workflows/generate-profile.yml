@@ -3,7 +3,7 @@ name: Generate Profile README
 on:
   # Trigger this workflow every day (midnight in KST)...
   schedule:
-    - cron: 0 15 * * *
+    - cron: '0 15 * * *'
     
   # or on every push event on template branch...
   push:
