@@ -35,16 +35,18 @@ def overlay_retirement_date(img: Image):
     config = configparser.ConfigParser()
     config.read(get_resource("settings.conf"))
 
+    enlistment_date = datetime(
+        *strptime(config['data']['enlistment_date'], "%Y-%m-%d")[0:6],
+        tzinfo=seoul_timezone
+    )
     retirement_date = datetime(
         *strptime(config['data']['retirement_date'], "%Y-%m-%d")[0:6],
         tzinfo=seoul_timezone
     )
     current_date = datetime.now(seoul_timezone)
 
-    days_left = (retirement_date - current_date).days
-
     # If not serving anymore, skip the whole thing
-    if days_left < 0:
+    if current_date > retirement_date:
         return
 
     # Setup a drawing object
@@ -57,9 +59,9 @@ def overlay_retirement_date(img: Image):
         size=36,
         layout_engine=ImageFont.LAYOUT_BASIC
     )
-    font_72pt = ImageFont.truetype(
+    font_60pt = ImageFont.truetype(
         get_resource("neodgm.ttf"),
-        size=72,
+        size=60,
         layout_engine=ImageFont.LAYOUT_BASIC
     )
 
@@ -68,14 +70,32 @@ def overlay_retirement_date(img: Image):
               "Serving in the RoK Navy...",
               (255, 255, 255),
               font=font_36pt)
-    draw.text((30, 425),
-              # Fixing grammar because reasons
-              f"{days_left} days left" if days_left > 1 else "just a day left!",
-              (255, 166, 76),
-              font=font_72pt)
+
+    # Figure out the right thing to say
+    message = None
+
+    if current_date < enlistment_date:
+        days_left = (enlistment_date - current_date).days
+        message = f"{days_left} days left as a civilian"
+    else:
+        days_served = (current_date - enlistment_date).days
+        total_days = (retirement_date - enlistment_date).days
+        message = f"{days_served} of {total_days} days served!"
+
+    draw.text(
+        (30, 435),
+        message,
+        (255, 166, 76),
+        font=font_60pt
+    )
 
 
 def generate_banner():
+    # Create base background
+    banner_background = Image.open(get_resource("banner-background.png"))
+    banner_background = banner_background.resize((1024, 512), Image.NEAREST)
+    overlay_retirement_date(banner_background)
+
     banner_files = glob.glob(get_resource("banner/*"))
 
     # The glob match is not sorted, apparently
@@ -86,28 +106,38 @@ def generate_banner():
 
     for file in banner_files:
         try:
-            # Read image file
+            # Load a frame
             frame = Image.open(file)
 
-            # Upscale the image
+            # Fix the yellow-ish "background" by clamping any transparent pixels
+            width, height = frame.size
+            for x in range(width):
+                for y in range(height):
+                    r, g, b, a = frame.getpixel((x, y))
+                    if a < 255:
+                        frame.putpixel((x, y), (0, 0, 0, 0))
+
+            # Resize the image
             frame = frame.resize((1024, 512), Image.NEAREST)
 
-            # Draw D-day text
-            overlay_retirement_date(frame)
-
-            # Add the image to the list
-            processed_frames.append(frame)
+            # Alpha-composite and add the image to the list
+            processed_frames.append(
+                Image.alpha_composite(banner_background, frame)
+            )
 
         except Exception as e:
-            print(e)
+            print("An exception occurred:", e)
             print(f"Unable to process {file}! Skipping the frame...")
+            print()
 
-    processed_frames[0].save(get_asset("banner.png"),
-                             format="PNG",
-                             save_all=True,
-                             append_images=processed_frames[1:],
-                             duration=100,
-                             loop=0)
+    processed_frames[0].save(
+        get_asset("banner.png"),
+        format="PNG",
+        save_all=True,
+        append_images=processed_frames[1:],
+        duration=100,
+        loop=0
+    )
 
 
 if __name__ == "__main__":
