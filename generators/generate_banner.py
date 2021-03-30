@@ -6,6 +6,7 @@ import configparser
 import glob
 
 from datetime import datetime
+from time import strptime
 
 import pytz
 
@@ -34,8 +35,9 @@ def overlay_retirement_date(img: Image):
     config = configparser.ConfigParser()
     config.read(get_resource("settings.conf"))
 
-    retirement_date = datetime.strptime(
-        config['data']['retirement_date'], "%Y-%m-%d"
+    retirement_date = datetime(
+        *strptime(config['data']['retirement_date'], "%Y-%m-%d")[0:6],
+        tzinfo=seoul_timezone
     )
     current_date = datetime.now(seoul_timezone)
 
@@ -50,8 +52,16 @@ def overlay_retirement_date(img: Image):
     draw.fontmode = "0"
 
     # Register fonts
-    font_36pt = ImageFont.truetype(get_resource("neodgm.ttf"), size=36)
-    font_72pt = ImageFont.truetype(get_resource("neodgm.ttf"), size=72)
+    font_36pt = ImageFont.truetype(
+        get_resource("neodgm.ttf"),
+        size=36,
+        layout_engine=ImageFont.LAYOUT_BASIC
+    )
+    font_72pt = ImageFont.truetype(
+        get_resource("neodgm.ttf"),
+        size=72,
+        layout_engine=ImageFont.LAYOUT_BASIC
+    )
 
     # Write the texts
     draw.text((30, 390),
@@ -88,7 +98,8 @@ def generate_banner():
             # Add the image to the list
             processed_frames.append(frame)
 
-        except Exception:
+        except Exception as e:
+            print(e)
             print(f"Unable to process {file}! Skipping the frame...")
 
     processed_frames[0].save(get_asset("banner.png"),
