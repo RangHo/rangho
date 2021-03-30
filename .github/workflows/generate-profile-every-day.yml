@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  generate:
+  main:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,11 +17,6 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: template
-
-      - name: Install dependencies needed
-        run: |
-          sudo apt-get install git python3 python3-pip
-          sudo pip3 install Pillow
 
       - name: Run the generator script
         run: ./generate.sh "$GITHUB_TOKEN"
