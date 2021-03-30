@@ -1,3 +1,4 @@
 #!/bin/sh
 
-sed -i "s=%7Blast%20updated%7D=$(date +'%m/%d/%Y')=" README.md
+badge_content="<img src=\"https://img.shields.io/badge/Last%20updated-$(date +'%m/%d/%Y')-brightgreen?style=flat-square\" alt=\"Last Updated Icon\" />"
+sed -i "s#<!-- last_updated -->#$badge_content#" README.md

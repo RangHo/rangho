@@ -9,7 +9,7 @@ fi
 github_token="$1"
 
 log() {
-    printf "==== LOG ====\n%s\n=============\n" "$@"
+    printf "$(tput setaf 3)%s$(tput sgr0)\n" "$@"
 }
 
 setup() {
