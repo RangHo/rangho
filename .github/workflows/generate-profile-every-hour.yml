@@ -1,0 +1,21 @@
+name: Generate profile README every hour
+
+on:
+  # Trigger this workflow every hour...
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Check out the template repository
+      - uses: actions/checkout@v2
+        with:
+          ref: template
+
+      - name: Run the generator script
+        run: ./generate.sh "$GITHUB_TOKEN"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
