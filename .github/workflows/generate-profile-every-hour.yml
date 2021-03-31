@@ -3,7 +3,7 @@ name: Generate profile README every day
 on:
   # Trigger this workflow every day (1 A.M. in KST)...
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '0 * * * *'
 
 jobs:
   main:
