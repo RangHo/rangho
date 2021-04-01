@@ -1,10 +1,11 @@
-name: Generate profile README every day
+name: Generate profile README automatically
 
 on:
   # Trigger this workflow twice a day (midnight and noon in KST)...
   schedule:
     - cron: '0 3,15 * * *'
   
+  # ...or when changes are made to the template branch
   push:
     branches: [ template ]
 
