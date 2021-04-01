@@ -8,6 +8,9 @@ on:
   # ...or when changes are made to the template branch
   push:
     branches: [ template ]
+  
+  # Manual workflow trigger
+  workflow_dispatch: 
 
 jobs:
   main:
