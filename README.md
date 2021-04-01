@@ -5,7 +5,7 @@
 <p align="center">
 <img src="https://komarev.com/ghpvc/?username=rangho&label=Profile%20views&color=orange&style=flat-square" alt="Hit icon" />
 <img src="https://img.shields.io/twitter/follow/RangHo_777?color=1DA1F2&label=Twitter%20followers%20&logoColor=white&style=flat-square" alt="Twitter Icon" />
-<img src="https://img.shields.io/badge/Last%20updated-04/01/2021-brightgreen?style=flat-square" alt="Last Updated Icon" />
+<img src="https://img.shields.io/badge/Last%20updated-04/02/2021-brightgreen?style=flat-square" alt="Last Updated Icon" />
 </p>
 
 - 📝 I regularly write articles on [rangho.postype.com](rangho.postype.com)
