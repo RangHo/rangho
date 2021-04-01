@@ -1,0 +1,22 @@
+name: Generate profile README when template changes
+
+on:
+  # Trigger this workflow whenever something is pushed to template branch
+  push:
+    branch:
+      - 'template'
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Check out the template repository
+      - uses: actions/checkout@v2
+        with:
+          ref: template
+
+      - name: Run the generator script
+        run: ./generate.sh "$GITHUB_TOKEN"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
