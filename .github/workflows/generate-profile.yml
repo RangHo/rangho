@@ -4,6 +4,9 @@ on:
   # Trigger this workflow twice a day (midnight and noon in KST)...
   schedule:
     - cron: '0 3,15 * * *'
+  
+  push:
+    branches: [ template ]
 
 jobs:
   main:
