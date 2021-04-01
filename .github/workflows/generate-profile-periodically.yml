@@ -1,9 +1,9 @@
 name: Generate profile README periodically
 
 on:
-  # Trigger this workflow every day (midnight in KST)...
+  # Trigger this workflow every other hour...
   schedule:
-    - cron: '0 3,15 * * *'
+    - cron: '0 */2 * * *'
   
   # ...or manually by pressing a button
   workflow_dispatch: 
