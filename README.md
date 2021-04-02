@@ -27,5 +27,5 @@ Do feel free to reach me out via: [![Email Badge](https://img.shields.io/badge/-
 
 ## 📊 Some statistics!
 <div align="center">
-    <img alt="RangHo's GitHub statistics" src="https://github-readme-stats.vercel.app/api?username=RangHo&count_private=true&show_icons=true&theme=slateorange" width="50%" height="200px" /><img alt="RangHo's GitHub top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RangHo&layout=compact&langs_count=8&theme=slateorange" width="50%" height="200px" />
+    <img alt="RangHo's GitHub statistics" src="https://github-readme-stats.vercel.app/api?username=RangHo&count_private=true&show_icons=true&theme=slateorange" width="58%" /><img alt="RangHo's GitHub top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RangHo&layout=compact&langs_count=8&theme=slateorange" width="42%" />
 </div>
