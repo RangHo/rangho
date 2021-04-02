@@ -8,7 +8,7 @@
     <!-- last_updated -->
 </p>
 
-My name is **RangHo Lee** (and no, that's not my real name), an undergraduate student majoring in Computer Science and Engineering and English Literature and Linguistics at [Sogang University](https://sogang.ac.kr)! I love learning and trying new things, and of course, building stuff.
+My name is **RangHo Lee** (and no, that's not my real name), an undergraduate student majoring in **Computer Science and Engineering** and **English Literature and Linguistics** at [Sogang University](https://sogang.ac.kr)! I love learning and trying new things, and of course, building stuff.
 
 Do feel free to reach me out via: \
 [![Email Badge](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=Gmail&logoColor=white)](mailto:hello@rangho.me)
