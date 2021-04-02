@@ -76,7 +76,10 @@ def overlay_retirement_date(img: Image):
 
     if current_date < enlistment_date:
         days_left = (enlistment_date - current_date).days
-        message = f"{days_left} days left as a civilian"
+        if days_left == 1:
+            message = f"{days_left} day left as a civilian"
+        else:
+            message = f"{days_left} days left as a civilian"
     else:
         days_served = (current_date - enlistment_date).days
         total_days = (retirement_date - enlistment_date).days
