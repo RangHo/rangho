@@ -8,9 +8,16 @@
     <!-- last_updated -->
 </p>
 
-My name is **RangHo Lee** (and yes, that's not my real name), an undergraduate student majoring in Computer Science and Engineering and English Literature and Linguistics at [Sogang University](https://sogang.ac.kr)! I love learning and trying new things, and of course, building stuff.
+My name is **RangHo Lee** (and no, that's not my real name), an undergraduate student majoring in Computer Science and Engineering and English Literature and Linguistics at [Sogang University](https://sogang.ac.kr)! I love learning and trying new things, and of course, building stuff.
 
-Do feel free to reach me out via: [![Email Badge](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=Gmail&logoColor=white)](mailto:hello@rangho.me) [![KakaoTalk Badge](https://img.shields.io/badge/-KakaoTalk-FFCD00?style=flat-square&logo=KakaoTalk&logoColor=white)](https://open.kakao.com/o/s9KDhU5c) [![Line Badge](https://img.shields.io/badge/-Line-00C300?style=flat-square&logo=Line&logoColor=white)](https://line.me/ti/p/~zu0107) [![Telegram Badge](https://img.shields.io/badge/-Telegram-26A5E4?style=flat-square&logo=Telegram&logoColor=white)](https://t.me/RangHo_Lee) [![Twitter Badge](https://img.shields.io/badge/-Twitter-1CA0F1?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/RangHo_777) [![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/juhun-lee-4a1ba2114/) [![Discord Badge](https://img.shields.io/badge/-Discord-7289DA?style=flat-square&logo=Discord&logoColor=white)](https://discord.com/users/220386972189982721)
+Do feel free to reach me out via: \
+[![Email Badge](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=Gmail&logoColor=white)](mailto:hello@rangho.me)
+[![KakaoTalk Badge](https://img.shields.io/badge/-KakaoTalk-FFCD00?style=flat-square&logo=KakaoTalk&logoColor=3A1D1D)](https://open.kakao.com/o/s9KDhU5c)
+[![Line Badge](https://img.shields.io/badge/-Line-00C300?style=flat-square&logo=Line&logoColor=white)](https://line.me/ti/p/~zu0107)
+[![Telegram Badge](https://img.shields.io/badge/-Telegram-26A5E4?style=flat-square&logo=Telegram&logoColor=white)](https://t.me/RangHo_Lee)
+[![Twitter Badge](https://img.shields.io/badge/-Twitter-1CA0F1?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/RangHo_777)
+[![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/juhun-lee-4a1ba2114/)
+[![Discord Badge](https://img.shields.io/badge/-Discord-7289DA?style=flat-square&logo=Discord&logoColor=white)](https://discord.com/users/220386972189982721)
 
 
 ## 🙋 More about me! I...
