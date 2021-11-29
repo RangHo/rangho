@@ -5,13 +5,14 @@
 <p align="center">
     <a href="https://github.com/RangHo/rangho"><img src="https://komarev.com/ghpvc/?username=rangho&label=Profile%20views&color=orange&style=flat-square" alt="Hit icon" /></a>
     <a href="https://keybase.io/rangho"><img src="https://img.shields.io/badge/PGP-7418_ADBA_A9F8_BD15-33A0FF?style=flat-square&logo=Keybase&logoColor=white" alt="PGP key ID" /></a>
-    <a href="https://github.com/RangHo/rangho/actions"><img src="https://img.shields.io/badge/Last%20updated-11/29/21 09:22 PM-brightgreen?style=flat-square" alt="Last Updated Icon" /></a>
+    <a href="https://github.com/RangHo/rangho/actions"><img src="https://img.shields.io/badge/Last%20updated-11/29/21 10:21 PM-brightgreen?style=flat-square" alt="Last Updated Icon" /></a>
 </p>
 
 My name is **RangHo Lee** (and no, that's not my real name), an undergraduate student majoring in **Computer Science and Engineering** and **English Literature and Linguistics** at [Sogang University](https://sogang.ac.kr)! I love learning and trying new things, and of course, building stuff.
 
 Do feel free to reach me out via:
 
+[![Instagram Badge](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/rangho_lee/)
 [![Email Badge](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=Gmail&logoColor=white)](mailto:hello@rangho.me)
 [![Reddit Badge](https://img.shields.io/badge/-Reddit-FF4500?style=flat-square&logo=Reddit&logoColor=white)](https://www.reddit.com/user/zu0107)
 [![KakaoTalk Badge](https://img.shields.io/badge/-KakaoTalk-FFCD00?style=flat-square&logo=KakaoTalk&logoColor=3A1D1D)](https://open.kakao.com/o/s9KDhU5c)
