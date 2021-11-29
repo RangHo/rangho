@@ -12,6 +12,7 @@ My name is **RangHo Lee** (and no, that's not my real name), an undergraduate st
 
 Do feel free to reach me out via:
 
+[![Instagram Badge](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/rangho_lee/)
 [![Email Badge](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=Gmail&logoColor=white)](mailto:hello@rangho.me)
 [![Reddit Badge](https://img.shields.io/badge/-Reddit-FF4500?style=flat-square&logo=Reddit&logoColor=white)](https://www.reddit.com/user/zu0107)
 [![KakaoTalk Badge](https://img.shields.io/badge/-KakaoTalk-FFCD00?style=flat-square&logo=KakaoTalk&logoColor=3A1D1D)](https://open.kakao.com/o/s9KDhU5c)
