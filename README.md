@@ -5,7 +5,7 @@
 <p align="center">
     <a href="https://github.com/RangHo/rangho"><img src="https://komarev.com/ghpvc/?username=rangho&label=Profile%20views&color=orange&style=flat-square" alt="Hit icon" /></a>
     <a href="https://keybase.io/rangho"><img src="https://img.shields.io/badge/PGP-7418_ADBA_A9F8_BD15-33A0FF?style=flat-square&logo=Keybase&logoColor=white" alt="PGP key ID" /></a>
-    <a href="https://github.com/RangHo/rangho/actions"><img src="https://img.shields.io/badge/Last%20updated-04/22/22 07:17 PM-brightgreen?style=flat-square" alt="Last Updated Icon" /></a>
+    <a href="https://github.com/RangHo/rangho/actions"><img src="https://img.shields.io/badge/Last%20updated-04/22/22 07:58 PM-brightgreen?style=flat-square" alt="Last Updated Icon" /></a>
 </p>
 
 My name is **RangHo Lee** (and no, that's not my real name), an undergraduate student majoring in **Computer Science and Engineering** and **English Literature and Linguistics** at [Sogang University](https://sogang.ac.kr)! I love learning and trying new things, and of course, building stuff.
@@ -42,6 +42,7 @@ Here are the languages I have experience with!
 ### Languages
 ![C Language Badge](https://img.shields.io/badge/-C_language-A8B9CC?style=for-the-badge&logo=C&logoColor=black)
 ![C++ Badge](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=C%2B%2B&logoColor=white)
+![Haskell Badge](https://img.shields.io/badge/-Haskell-5D4F85?style=for-the-badge&logo=Haskell&logoColor=white)
 ![Rust Badge](https://img.shields.io/badge/-Rust-black?style=for-the-badge&logo=Rust&logoColor=white)
 
 ![C# Badge](https://img.shields.io/badge/-C%23-239120?style=for-the-badge&logo=C+Sharp&logoColor=white)
