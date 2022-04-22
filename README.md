@@ -42,6 +42,7 @@ Here are the languages I have experience with!
 ### Languages
 ![C Language Badge](https://img.shields.io/badge/-C_language-A8B9CC?style=for-the-badge&logo=C&logoColor=black)
 ![C++ Badge](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=C%2B%2B&logoColor=white)
+![Haskell Badge](https://img.shields.io/badge/-Haskell-5D4F85?style=for-the-badge&logo=Haskell&logoColor=white)
 ![Rust Badge](https://img.shields.io/badge/-Rust-black?style=for-the-badge&logo=Rust&logoColor=white)
 
 ![C# Badge](https://img.shields.io/badge/-C%23-239120?style=for-the-badge&logo=C+Sharp&logoColor=white)
