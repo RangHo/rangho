@@ -22,8 +22,8 @@ setup() {
     cd deploy
 
     log "Setting up a git profile..."
-    git config --local user.name "Profile Generator Bot"
-    git config --local user.email "profile-generator@rangho.me"
+    git config --local user.name "GitHub Actions"
+    git config --local user.email "action@github.com"
     git remote set-url origin "https://x-access-token:$github_token@github.com/RangHo/rangho"
     
     log "Checking out the deploy branch..."
