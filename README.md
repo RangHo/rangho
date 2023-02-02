@@ -25,7 +25,7 @@ Do feel free to reach me out via:
 
 
 ## :raising_hand: More about me! I...
-- :globe_with_meridians: ...speak Korean and English *semi-competently* and currently learning Japanese and Russian.
+- :globe_with_meridians: ...speak Korean and English *semi-competently* and currently learning German, Japanese and Russian.
 - :memo: ...sometimes write articles on **[rangho.postype.com](https://rangho.postype.com)** (in Korean, though).
   - ~~It's not a tech blog; it's more like a trashcan where I stash my gibberish.~~
 - :studio_microphone: ...like speaking in public about things I am interested in, such as:
