@@ -46,7 +46,7 @@ Here are the languages I have experience with!
 ![Rust Badge](https://img.shields.io/badge/-Rust-black?style=for-the-badge&logo=Rust&logoColor=white)
 
 ![C# Badge](https://img.shields.io/badge/-C%23-239120?style=for-the-badge&logo=C+Sharp&logoColor=white)
-![Java Badge](https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=Java&logoColor=white)
+![Java Badge](https://img.shields.io/badge/-Java-black?style=for-the-badge&logo=OpenJDK&logoColor=white)
 ![Kotlin Badge](https://img.shields.io/badge/-Kotlin-0095D5?style=for-the-badge&logo=Kotlin&logoColor=white)
 
 ![Shell Script Badge](https://img.shields.io/badge/-Shell_Script-4EAA25?style=for-the-badge&logo=GNU+Bash&logoColor=white)
