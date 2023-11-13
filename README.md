@@ -5,7 +5,7 @@
 <p align="center">
     <a href="https://github.com/RangHo/rangho"><img src="https://komarev.com/ghpvc/?username=rangho&label=Profile%20views&color=orange&style=flat-square" alt="Hit icon" /></a>
     <a href="https://keybase.io/rangho"><img src="https://img.shields.io/badge/PGP-7418_ADBA_A9F8_BD15-33A0FF?style=flat-square&logo=Keybase&logoColor=white" alt="PGP key ID" /></a>
-    <a href="https://github.com/RangHo/rangho/actions"><img src="https://img.shields.io/badge/Last%20updated-11/13/23 05:16 PM KST-brightgreen?style=flat-square" alt="Last Updated on 11/13/23 05:16 PM, Korea Standard Time." /></a>
+    <a href="https://github.com/RangHo/rangho/actions"><img src="https://img.shields.io/badge/Last%20updated-11/13/23 05:52 PM KST-brightgreen?style=flat-square" alt="Last Updated on 11/13/23 05:52 PM, Korea Standard Time." /></a>
 </p>
 
 My name is **RangHo Lee** (and no, that's not my real name), an undergraduate student majoring in **Computer Science and Engineering** and **English Literature and Linguistics** at [Sogang University](https://sogang.ac.kr)! I love learning and trying new things, and of course, building stuff.
@@ -49,13 +49,12 @@ Here are the languages I have experience with!
 ![Java Badge](https://img.shields.io/badge/-Java-437291?style=for-the-badge&logo=OpenJDK&logoColor=white)
 ![Kotlin Badge](https://img.shields.io/badge/-Kotlin-0095D5?style=for-the-badge&logo=Kotlin&logoColor=white)
 ![Dart Badge](https://img.shields.io/badge/-Dart-0175C2?style=for-the-badge&logo=Dart&logoColor=white)
+![Elixir Badge](https://img.shields.io/badge/-Elixir-4B275F?style=for-the-badge&logo=Elixir&logoColor=white)
 
 ![Shell Script Badge](https://img.shields.io/badge/-Shell_Script-4EAA25?style=for-the-badge&logo=GNU+Bash&logoColor=white)
 ![Python Badge](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)
 ![Lua Badge](https://img.shields.io/badge/-Lua-2C2D72?style=for-the-badge&logo=Lua&logoColor=white)
 ![Ruby Badge](https://img.shields.io/badge/-Ruby-CC342D?style=for-the-badge&logo=Ruby&logoColor=white)
-
-![Elixir Badge](https://img.shields.io/badge/-Elixir-4B275F?style=for-the-badge&logo=Elixir&logoColor=white)
 
 ![Svelte Badge](https://img.shields.io/badge/-Svelte-FF3E00?style=for-the-badge&logo=Svelte&logoColor=white)
 ![HTML Badge](https://img.shields.io/badge/-HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white)
