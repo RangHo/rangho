@@ -1,7 +1,5 @@
 <h1 align="center"><img alt="Profile banner image" src="assets/banner.png" /></h1>
 
-<h1 align="center"><i>Saluton</i> :wave:, mondo!</h1>
-
 <p align="center">
     <a href="https://github.com/RangHo/rangho"><img src="https://komarev.com/ghpvc/?username=rangho&label=Profile%20views&color=orange&style=flat-square" alt="Hit icon" /></a>
     <a href="https://keybase.io/rangho"><img src="https://img.shields.io/badge/PGP-7418_ADBA_A9F8_BD15-33A0FF?style=flat-square&logo=Keybase&logoColor=white" alt="PGP key ID" /></a>
