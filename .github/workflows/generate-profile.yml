@@ -7,7 +7,7 @@ on:
 
   # ...or when there are changes made in template branch...
   push:
-    branch:
+    branches:
       - template
   
   # ...or manually by pressing a button
