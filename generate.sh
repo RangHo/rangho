@@ -52,6 +52,9 @@ cleanup() {
         mv "$asset" deploy && log " -> Moved: $asset"
     done
 
+    log "Moving README.md..."
+    mv README.md deploy && log " -> Moved: README.md"
+
     # Commit the changes
     log "Committing changes to upstream..."
     cd deploy
