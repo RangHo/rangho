@@ -77,7 +77,4 @@ Here are the languages I have experience with!
 
 
 ## :bar_chart: Some statistics!
-<div align="center">
-    <img alt="RangHo's GitHub statistics" src="https://github-readme-stats.vercel.app/api?username=RangHo&count_private=true&show_icons=true&theme=slateorange" />
-    <img alt="RangHo's GitHub top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RangHo&layout=compact&langs_count=8&theme=slateorange" />
-</div>
+<img src="github-metrics.svg" alt="Metrics" width="100%">

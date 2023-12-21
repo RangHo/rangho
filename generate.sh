@@ -56,7 +56,7 @@ cleanup() {
     log "Committing changes to upstream..."
     cd deploy
     git add --all
-    git commit -m "chore: update profile" && log " -> Commit successful"
+    git commit -m "chore: update profile [skip ci]" && log " -> Commit successful"
 
     log "Pushing changes to upstream..."
     if [ -z "$debug" ]; then
