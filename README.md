@@ -77,4 +77,6 @@ Here are the languages I have experience with!
 
 
 ## :bar_chart: Some statistics!
-<img src="github-metrics.svg" alt="Metrics" width="100%">
+<p align="center">
+    <img src="github-metrics.svg" alt="Metrics" />
+</p>
