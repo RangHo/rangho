@@ -8,7 +8,7 @@ on:
   # ...or when there are changes made in template branch...
   push:
     branches:
-      - template
+      - 'template'
   
   # ...or manually by pressing a button
   workflow_dispatch: 
