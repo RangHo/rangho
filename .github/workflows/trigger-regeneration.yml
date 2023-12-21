@@ -1,0 +1,12 @@
+name: Trigger regeneration when template changes
+
+on: [push]
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run generator action
+        uses: RangHo/rangho/.github/workflows/generate-profile.yml@deploy
+
