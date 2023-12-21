@@ -13,19 +13,9 @@ import pytz
 from PIL import Image, ImageDraw, ImageFont
 
 
-def get_resource(file: str):
-    cwd = os.path.dirname(os.path.realpath(sys.argv[0]))
-    return os.path.join(cwd, "..", "resources", file)
-
-
 def get_asset(file: str):
     cwd = os.path.dirname(os.path.realpath(sys.argv[0]))
-    assets_dir = os.path.join(cwd, "..", "assets")
-
-    if not os.path.exists(assets_dir):
-        os.mkdir(assets_dir)
-
-    return os.path.join(assets_dir, file)
+    return os.path.join(cwd, "..", "assets", "banner.png", file)
 
 
 def overlay_retirement_date(img: Image):
@@ -33,7 +23,7 @@ def overlay_retirement_date(img: Image):
 
     # Find out how many days left until retirement
     config = configparser.ConfigParser()
-    config.read(get_resource("settings.conf"))
+    config.read(get_asset("settings.conf"))
 
     enlistment_date = datetime(
         *strptime(config['data']['enlistment_date'], "%Y-%m-%d")[0:6],
@@ -55,12 +45,12 @@ def overlay_retirement_date(img: Image):
 
     # Register fonts
     font_36pt = ImageFont.truetype(
-        get_resource("neodgm.ttf"),
+        get_asset("neodgm.ttf"),
         size=36,
         layout_engine=ImageFont.LAYOUT_BASIC
     )
     font_60pt = ImageFont.truetype(
-        get_resource("neodgm.ttf"),
+        get_asset("neodgm.ttf"),
         size=60,
         layout_engine=ImageFont.LAYOUT_BASIC
     )
@@ -95,11 +85,11 @@ def overlay_retirement_date(img: Image):
 
 def generate_banner():
     # Create base background
-    banner_background = Image.open(get_resource("banner-background.png"))
+    banner_background = Image.open(get_asset("banner-background.png"))
     banner_background = banner_background.resize((1024, 512), Image.NEAREST)
     overlay_retirement_date(banner_background)
 
-    banner_files = glob.glob(get_resource("banner/*"))
+    banner_files = [get_asset(f"banner_{frame:04d}.png") for frame in range(0, 22)]
 
     # The glob match is not sorted, apparently
     banner_files.sort()
@@ -134,7 +124,7 @@ def generate_banner():
             print()
 
     processed_frames[0].save(
-        get_asset("banner.png"),
+        "banner.png",
         format="PNG",
         save_all=True,
         append_images=processed_frames[1:],
