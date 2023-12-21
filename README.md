@@ -43,7 +43,7 @@ Here are the languages I have experience with!
 ![Haskell Badge](https://img.shields.io/badge/-Haskell-5D4F85?style=for-the-badge&logo=Haskell&logoColor=white)
 ![Rust Badge](https://img.shields.io/badge/-Rust-black?style=for-the-badge&logo=Rust&logoColor=white)
 
-![C# Badge](https://img.shields.io/badge/-C%23-239120?style=for-the-badge&logo=C+Sharp&logoColor=white)
+![C# Badge](https://img.shields.io/badge/-C%23-239120?style=for-the-badge&logo=CSharp&logoColor=white)
 ![Java Badge](https://img.shields.io/badge/-Java-437291?style=for-the-badge&logo=OpenJDK&logoColor=white)
 ![Kotlin Badge](https://img.shields.io/badge/-Kotlin-0095D5?style=for-the-badge&logo=Kotlin&logoColor=white)
 ![Dart Badge](https://img.shields.io/badge/-Dart-0175C2?style=for-the-badge&logo=Dart&logoColor=white)
