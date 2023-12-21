@@ -1,4 +1,4 @@
-<h1 align="center"><img alt="Profile banner image" src="assets/banner.png" /></h1>
+<h1 align="center"><img alt="Profile banner image" src="banner.png" /></h1>
 
 <p align="center">
     <a href="https://github.com/RangHo/rangho"><img src="https://komarev.com/ghpvc/?username=rangho&label=Profile%20views&color=orange&style=flat-square" alt="Hit icon" /></a>
