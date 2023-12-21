@@ -5,10 +5,8 @@ on:
   schedule:
     - cron: '0 * * * *'
 
-  # ...or when there are changes made in template branch...
+  # ...or when there are changes made...
   push:
-    branches:
-      - 'template'
   
   # ...or manually by pressing a button
   workflow_dispatch: 
