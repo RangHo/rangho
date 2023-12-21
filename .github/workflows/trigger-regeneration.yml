@@ -5,8 +5,5 @@ on: [push]
 jobs:
   main:
     runs-on: ubuntu-latest
-
-    steps:
-      - name: Run generator action
-        uses: RangHo/rangho/.github/workflows/generate-profile.yml@deploy
+    uses: RangHo/rangho/.github/workflows/generate-profile.yml@deploy
 
