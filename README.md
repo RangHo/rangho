@@ -67,6 +67,7 @@ Here are the languages I have experience with!
 ![Emacs Badge](https://img.shields.io/badge/-Emacs-7F5AB6?style=for-the-badge&logo=GNU+Emacs&logoColor=white)
 
 ### Operating systems
+![Void Linux Badge](https://img.shields.io/badge/-Void_Linux-478061?style=for-the-badge&logo=Void+Linux&logoColor=white)
 ![Arch Linux Badge](https://img.shields.io/badge/-Arch_Linux-1793D1?style=for-the-badge&logo=Arch+Linux&logoColor=white)
 ![Kali Linux Badge](https://img.shields.io/badge/-Kali_Linux-557C94?style=for-the-badge&logo=Kali+Linux&logoColor=white)
 ![Alpine Linux Badge](https://img.shields.io/badge/-Alpine_Linux-0D597F?style=for-the-badge&logo=Alpine+Linux&logoColor=white)
