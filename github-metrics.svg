@@ -1642,10 +1642,10 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">ef2536c7</span>
-                            <span class="code">build.gradle</span>
+                            <span class="code">gradle.properties</span>
                             <span class="code">
-                                <span class="snippet additions">++2</span>
-                                <span class="snippet deletions">--2</span>
+                                <span class="snippet additions">++3</span>
+                                <span class="snippet deletions">--1</span>
                             </span>
                         </div>
                     </section>
@@ -1653,14 +1653,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -4,7 +4,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">   }<br /></span><span class="token prefix unchanged">·</span><span class="token line">}// Top-level build file where you can add configuration options common to all sub-projects/modules.<br /></span><span class="token prefix unchanged">·</span><span class="token line">plugins {<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">   id 'com.android.application' version '7.4.2' apply false<br /></span><span class="token prefix deleted">-</span><span class="token line">   id 'com.android.library' version '7.4.2' apply false<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">   id 'com.android.application' version '8.3.1' apply false<br /></span><span class="token prefix inserted">+</span><span class="token line">   id 'com.android.library' version '8.3.1' apply false<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">   id 'org.jetbrains.kotlin.android' version '1.7.0' apply false<br /></span><span class="token prefix unchanged">·</span><span class="token line">}<br /></span></span>\No newline at end of file</code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -20,4 +20,6 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"># Enables namespacing of each library's R class so that its R class includes only the<br /></span><span class="token prefix unchanged">·</span><span class="token line"># resources declared in the library itself and none from the library's dependencies,<br /></span><span class="token prefix unchanged">·</span><span class="token line"># thereby reducing the size of the R class for that library<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">android.nonTransitiveRClass=true<br /></span></span>\No newline at end of file<br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">android.nonTransitiveRClass=true<br /></span><span class="token prefix inserted">+</span><span class="token line">android.defaults.buildfeatures.buildconfig=true<br /></span><span class="token prefix inserted">+</span><span class="token line">android.nonFinalResIds=false<br /></span></span>\No newline at end of file</code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 19 Mar 2024, 12:10:34 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 19 Mar 2024, 13:20:17 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
