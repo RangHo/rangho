@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1327" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1372" class="">
     <defs>
         <style/>
     </defs>
@@ -1622,9 +1622,9 @@ Closes: #6
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">70b7b883</span>
-                            <span class="code">EEE2108/README.md</span>
+                            <span class="code">CSE2003/README.md</span>
                             <span class="code">
-                                <span class="snippet additions">++6</span>
+                                <span class="snippet additions">++9</span>
                                 <span class="snippet deletions">--0</span>
                             </span>
                         </div>
@@ -1633,14 +1633,14 @@ Closes: #6
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -0,0 +1,6 @@</span><br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"># 공학프로그래밍 (`EEE2108`)<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">* 연도: 2021<br /></span><span class="token prefix inserted">+</span><span class="token line">* 분반:<br /></span><span class="token prefix inserted">+</span><span class="token line">* 교수:<br /></span><span class="token prefix inserted">+</span><span class="token line">* 비고:</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -0,0 +1,9 @@</span><br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"># 기초공학설계 (`CSE2003`)<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">* 연도: 2019<br /></span><span class="token prefix inserted">+</span><span class="token line">* 분반: 03<br /></span><span class="token prefix inserted">+</span><span class="token line">* 교수: 김지환 교수님<br /></span><span class="token prefix inserted">+</span><span class="token line">* 비고:<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">C 언어 기초를 학습하는 과목입니다.<br /></span><span class="token prefix inserted">+</span><span class="token line">실습 위주로 진행하지만, 각 문제 자체는 매우 간단합니다.</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 22 Mar 2024, 02:42:55 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 22 Mar 2024, 03:17:29 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
