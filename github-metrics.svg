@@ -1652,7 +1652,7 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">d55e1405</span>
-                            <span class="code">doc/flatpak-run.xml</span>
+                            <span class="code">doc/flatpak-build.xml</span>
                             <span class="code">
                                 <span class="snippet additions">++1</span>
                                 <span class="snippet deletions">--1</span>
@@ -1663,14 +1663,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -113,7 +113,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">&lt;/para&gt;<br /></span><span class="token prefix unchanged">·</span><span class="token line">&lt;para&gt;<br /></span><span class="token prefix unchanged">·</span><span class="token line">    Flatpak also overrides the XDG environment variables to point sandboxed applications<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">    at their writable filesystem locations below &lt;filename&gt;~/.var/app/$APPID/&lt;/filename&gt;:<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">    at their writable filesystem locations below &lt;filename&gt;~/.local/state/flatpak/$APPID/&lt;/filename&gt;:<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">&lt;/para&gt;<br /></span><span class="token prefix unchanged">·</span><span class="token line">&lt;simplelist&gt;<br /></span><span class="token prefix unchanged">·</span><span class="token line">    &lt;member&gt;XDG_DATA_HOME&lt;/member&gt;</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -254,7 +254,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">    &lt;term&gt;&lt;option&gt;--with-appdir&lt;/option&gt;&lt;/term&gt;<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">    &lt;listitem&gt;&lt;para&gt;<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">      Expose and configure access to the per-app storage directory in &lt;filename&gt;$HOME/.var/app&lt;/filename&gt;. This is<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">      Expose and configure access to the per-app storage directory in &lt;filename&gt;$HOME/.local/state/flatpak&lt;/filename&gt;. This is<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">      not normally useful when building, but helps when testing built apps.<br /></span><span class="token prefix unchanged">·</span><span class="token line">    &lt;/para&gt;&lt;/listitem&gt;<br /></span><span class="token prefix unchanged">·</span><span class="token line">&lt;/varlistentry&gt;</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 28 Mar 2024, 22:11:13 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 28 Mar 2024, 23:11:08 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
