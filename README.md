@@ -43,16 +43,16 @@ Here are the languages I have experience with!
 ![Haskell Badge](https://img.shields.io/badge/-Haskell-5D4F85?style=for-the-badge&logo=Haskell&logoColor=white)
 ![Rust Badge](https://img.shields.io/badge/-Rust-black?style=for-the-badge&logo=Rust&logoColor=white)
 
-![C# Badge](https://img.shields.io/badge/-C%23-239120?style=for-the-badge&logo=CSharp&logoColor=white)
+![C# Badge](https://img.shields.io/badge/-C%23-239120?style=for-the-badge&logo=.NET&logoColor=white)
 ![Java Badge](https://img.shields.io/badge/-Java-437291?style=for-the-badge&logo=OpenJDK&logoColor=white)
 ![Kotlin Badge](https://img.shields.io/badge/-Kotlin-0095D5?style=for-the-badge&logo=Kotlin&logoColor=white)
 ![Dart Badge](https://img.shields.io/badge/-Dart-0175C2?style=for-the-badge&logo=Dart&logoColor=white)
 ![Elixir Badge](https://img.shields.io/badge/-Elixir-4B275F?style=for-the-badge&logo=Elixir&logoColor=white)
 
+![Ruby Badge](https://img.shields.io/badge/-Ruby-CC342D?style=for-the-badge&logo=Ruby&logoColor=white)
 ![Shell Script Badge](https://img.shields.io/badge/-Shell_Script-4EAA25?style=for-the-badge&logo=GNU+Bash&logoColor=white)
 ![Python Badge](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)
 ![Lua Badge](https://img.shields.io/badge/-Lua-2C2D72?style=for-the-badge&logo=Lua&logoColor=white)
-![Ruby Badge](https://img.shields.io/badge/-Ruby-CC342D?style=for-the-badge&logo=Ruby&logoColor=white)
 
 ![Svelte Badge](https://img.shields.io/badge/-Svelte-FF3E00?style=for-the-badge&logo=Svelte&logoColor=white)
 ![HTML Badge](https://img.shields.io/badge/-HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white)
@@ -63,18 +63,12 @@ Here are the languages I have experience with!
 ### Editors
 ![NeoVim Badge](https://img.shields.io/badge/-NeoVim-57A143?style=for-the-badge&logo=NeoVim&logoColor=white)
 ![Vim Badge](https://img.shields.io/badge/-Vim-019733?style=for-the-badge&logo=Vim&logoColor=white)
-![VSCode Badge](https://img.shields.io/badge/-VSCode-007ACC?style=for-the-badge&logo=Visual+Studio+Code&logoColor=white)
 ![Emacs Badge](https://img.shields.io/badge/-Emacs-7F5AB6?style=for-the-badge&logo=GNU+Emacs&logoColor=white)
 
 ### Operating systems
-![Void Linux Badge](https://img.shields.io/badge/-Void_Linux-478061?style=for-the-badge&logo=Void+Linux&logoColor=white)
 ![Arch Linux Badge](https://img.shields.io/badge/-Arch_Linux-1793D1?style=for-the-badge&logo=Arch+Linux&logoColor=white)
-![Kali Linux Badge](https://img.shields.io/badge/-Kali_Linux-557C94?style=for-the-badge&logo=Kali+Linux&logoColor=white)
+![Void Linux Badge](https://img.shields.io/badge/-Void_Linux-478061?style=for-the-badge&logo=Void+Linux&logoColor=white)
 ![Alpine Linux Badge](https://img.shields.io/badge/-Alpine_Linux-0D597F?style=for-the-badge&logo=Alpine+Linux&logoColor=white)
-![Ubuntu Badge](https://img.shields.io/badge/-Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white)
-
-![Windows Badge](https://img.shields.io/badge/-Windows-0078D6?style=for-the-badge&logo=Windows&logoColor=white)
-![macOS Badge](https://img.shields.io/badge/-macOS-black?style=for-the-badge&logo=Apple&logoColor=white)
 
 
 ## :bar_chart: Some statistics!
