@@ -3,7 +3,7 @@
 <p align="center">
     <a href="https://github.com/RangHo/rangho"><img src="https://komarev.com/ghpvc/?username=rangho&label=Profile%20views&color=orange&style=flat-square" alt="Hit icon" /></a>
     <a href="https://keybase.io/rangho"><img src="https://img.shields.io/badge/PGP-7418_ADBA_A9F8_BD15-33A0FF?style=flat-square&logo=Keybase&logoColor=white" alt="PGP key ID" /></a>
-    <a href="https://github.com/RangHo/rangho/actions"><img src="https://img.shields.io/badge/Last%20updated-08/18/24 02:13 PM KST-brightgreen?style=flat-square" alt="Last Updated on 08/18/24 02:13 PM, Korea Standard Time." /></a>
+    <a href="https://github.com/RangHo/rangho/actions"><img src="https://img.shields.io/badge/Last%20updated-08/18/24 03:17 PM KST-brightgreen?style=flat-square" alt="Last Updated on 08/18/24 03:17 PM, Korea Standard Time." /></a>
 </p>
 
 My name is **RangHo Lee** (and no, that's not my real name), an undergraduate student majoring in **Computer Science and Engineering** and **English Literature and Linguistics** at [Sogang University](https://sogang.ac.kr)! I love learning and trying new things, and of course, building stuff.
