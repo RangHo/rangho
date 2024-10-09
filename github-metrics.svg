@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1369" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1400" class="">
     <defs>
         <style/>
     </defs>
@@ -268,7 +268,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
                             </svg>
-                            Average per day at ~2.21
+                            Average per day at ~2.20
                         </div>
                     </section>
                 </div>
@@ -1261,6 +1261,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-3.4, 8)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -1481,7 +1486,7 @@
                                 <div class="title">
                                     <span class="prefix">Super</span>
                                     developer
-                                    <span class="gh">ranked 546k out of 144m users</span>
+                                    <span class="gh">ranked 546k out of 146m users</span>
                                 </div>
                                 <div class="text">Published 59 public repositories</div>
                             </div>
@@ -1636,7 +1641,7 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">2642fe42</span>
-                            <span class="code">src/notes/french_press.org</span>
+                            <span class="code">src/notes/moka_pot.org</span>
                             <span class="code">
                                 <span class="snippet additions">++1</span>
                                 <span class="snippet deletions">--1</span>
@@ -1647,14 +1652,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -34,5 +34,5 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">* 참고사항<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">- 프렌치 프레스는 커피 가루가 뜨거운 물에 잠겨 침출되는 만큼, 테크닉에 크게 맛이 좌우되지 않는다.<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">다만 커피콩에 따라 맛이 좌우되니 되도록 신선한 커피를 직접 갈아서 우리는 것이 좋다.<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">다만 커피콩에 따라 맛이 많이 달라지니 되도록 신선한 커피를 직접 갈아서 우리는 것이 좋다.<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">- 프렌치 프레스로 차를 우리거나 우유 거품을 낼 수도 있지만, 거름망에 남은 커피나 차 찌꺼기가 다른 음료의 맛을 망치고, 우유의 단백질이 엉겨 붙어 처치가 곤란하다.</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -8,7 +8,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">* 원리<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">[[https://upload.wikimedia.org/wikipedia/commons/d/da/MokaCoffeePot.svg][모카 포트 구조도.]]<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">[[https://upload.wikimedia.org/wikipedia/commons/d/da/MokaCoffeePot.svg]]<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">모카 포트는 다른 커피 제작 방식과 달리, /아래에서 위로/ 커피를 추출한다는 특징이 있다. 위 구조도에서 A에는 물, B에는 커피가루를 담아 불에 올리면 C에 추출된 커피가 올라온다. A와 B 사이에는 고무 패킹으로 밀봉되어 있다.<br /></span><span class="token prefix unchanged">·</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 9 Oct 2024, 01:14:44 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 9 Oct 2024, 03:05:10 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
