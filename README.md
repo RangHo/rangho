@@ -10,17 +10,7 @@ My name is **RangHo Lee** (and no, that's not my real name), an undergraduate st
 
 Do feel free to reach me out via:
 
-[![Instagram Badge](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/rangho_lee/)
-[![Email Badge](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=Gmail&logoColor=white)](mailto:hello@rangho.me)
-[![Reddit Badge](https://img.shields.io/badge/-Reddit-FF4500?style=flat-square&logo=Reddit&logoColor=white)](https://www.reddit.com/user/zu0107)
-[![KakaoTalk Badge](https://img.shields.io/badge/-KakaoTalk-FFCD00?style=flat-square&logo=KakaoTalk&logoColor=3A1D1D)](https://open.kakao.com/o/s9KDhU5c)
-[![Line Badge](https://img.shields.io/badge/-Line-00C300?style=flat-square&logo=Line&logoColor=white)](https://line.me/ti/p/~zu0107)
-[![Telegram Badge](https://img.shields.io/badge/-Telegram-26A5E4?style=flat-square&logo=Telegram&logoColor=white)](https://t.me/RangHo_Lee)
-[![Bluesky Badge](https://img.shields.io/badge/-Bluesky-0285FF?style=flat-square&logo=Bluesky&logoColor=white)](https://bsky.app/profile/bsky.rangho.moe)
-[![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/juhun-lee-4a1ba2114/)
-[![Discord Badge](https://img.shields.io/badge/-Discord-7289DA?style=flat-square&logo=Discord&logoColor=white)](https://discord.com/users/220386972189982721)
-[![Twitch Badge](https://img.shields.io/badge/-Twitch-9146FF?style=flat-square&logo=Twitch&logoColor=white)](https://www.twitch.tv/rangho)
-
+<!-- REPLACE WITH social_badges -->
 
 ## :raising_hand: More about me! I...
 - :globe_with_meridians: ...speak Korean and English *semi-competently* and currently learning German, Japanese and Russian.
