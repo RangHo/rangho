@@ -1,0 +1,9 @@
+name: Update profile when the template changes
+
+on: [push]
+
+jobs:
+  main:
+    uses: RangHo/rangho/.github/workflows/generate-profile.yml@main
+    secrets: inherit
+
