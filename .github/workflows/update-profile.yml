@@ -1,9 +1,9 @@
 name: Update profile README
 
 on:
-  # Trigger this workflow every hour...
-  # schedule:
-  #  - cron: '0 * * * *'
+  # Trigger this workflow twice a day...
+  schedule:
+    - cron: '0 0,12 * * *'
   
   # ...or manually by pressing a button...
   workflow_dispatch: 
