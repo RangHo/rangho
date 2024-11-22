@@ -2,7 +2,7 @@
 
 docker run \
        --rm \
-       --env INPUT_TOKEN="${GITHUB_TOKEN}" \
+       --env INPUT_TOKEN="${METRICS_GITHUB_TOKEN}" \
        --env INPUT_USER="RangHo" \
        --env INPUT_TEMPLATE="classic" \
        --env INPUT_BASE="activity, community, repositories, metadata" \
