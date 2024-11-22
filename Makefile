@@ -16,7 +16,7 @@ build:
 
 build/README.md: build
 	for script in $$(find scripts -executable -type f | sort); do \
-		GITHUB_TOKEN="${GITHUB_TOKEN}" ./$$script; \
+		./$$script; \
 	done
 	cp README.md build/README.md
 	for untracked in $$(git ls-files --others --exclude-standard); do \
