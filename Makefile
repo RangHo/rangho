@@ -18,7 +18,7 @@ build/README.md: build
 	done
 	cp README.md build/README.md
 	for untracked in $$(git ls-files --others --exclude-standard); do \
-		cp $$untracked build/; \
+		[ -f $$untracked ] && cp $$untracked build/; \
 	done
 
 commit:
