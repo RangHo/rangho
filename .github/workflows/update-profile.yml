@@ -25,3 +25,4 @@ jobs:
         run: make
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          METRICS_GITHUB_TOKEN: ${{ secrets.METRICS_GITHUB_TOKEN }}
