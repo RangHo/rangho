@@ -16,7 +16,7 @@ Do feel free to reach me out via:
 [![KakaoTalk Badge](https://img.shields.io/badge/-KakaoTalk-FFCD00?style=flat-square&logo=KakaoTalk&logoColor=3A1D1D)](https://open.kakao.com/o/s9KDhU5c)
 [![Line Badge](https://img.shields.io/badge/-Line-00C300?style=flat-square&logo=Line&logoColor=white)](https://line.me/ti/p/~zu0107)
 [![Telegram Badge](https://img.shields.io/badge/-Telegram-26A5E4?style=flat-square&logo=Telegram&logoColor=white)](https://t.me/RangHo_Lee)
-[![Twitter Badge](https://img.shields.io/badge/-Twitter-1CA0F1?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/RangHo_777)
+[![Bluesky Badge](https://img.shields.io/badge/-Bluesky-0285FF?style=flat-square&logo=Bluesky&logoColor=white)](https://bsky.app/profile/bsky.rangho.moe)
 [![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/juhun-lee-4a1ba2114/)
 [![Discord Badge](https://img.shields.io/badge/-Discord-7289DA?style=flat-square&logo=Discord&logoColor=white)](https://discord.com/users/220386972189982721)
 [![Twitch Badge](https://img.shields.io/badge/-Twitch-9146FF?style=flat-square&logo=Twitch&logoColor=white)](https://www.twitch.tv/rangho)
