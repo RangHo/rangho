@@ -4,6 +4,6 @@ on: [push]
 
 jobs:
   main:
-    uses: RangHo/rangho/.github/workflows/generate-profile.yml@main
+    uses: RangHo/rangho/.github/workflows/update-profile.yml@main
     secrets: inherit
 
