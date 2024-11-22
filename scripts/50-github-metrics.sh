@@ -9,6 +9,7 @@ docker run \
        --env INPUT_CONFIG_TIMEZONE="Asia/Seoul" \
        --env INPUT_PLUGIN_ACHIEVEMENTS="yes" \
        --env INPUT_PLUGIN_ACHIEVEMENTS_DISPLAY="compact" \
+       --env INPUT_PLUGIN_ACHIEVEMENTS_SECRETS="yes" \
        --env INPUT_PLUGIN_ACHIEVEMENTS_THRESHOLD="A" \
        --env INPUT_PLUGIN_CODE="yes" \
        --env INPUT_PLUGIN_CODE_DAYS="3" \
