@@ -3,7 +3,7 @@
 <p align="center">
     <a href="https://github.com/RangHo/rangho"><img src="https://komarev.com/ghpvc/?username=rangho&label=Profile%20views&color=orange&style=flat-square" alt="Hit icon" /></a>
     <a href="https://keybase.io/rangho"><img src="https://img.shields.io/badge/PGP-7418_ADBA_A9F8_BD15-33A0FF?style=flat-square&logo=Keybase&logoColor=white" alt="PGP key ID" /></a>
-    <a href="https://github.com/RangHo/rangho/actions"><img src="https://img.shields.io/badge/Last%20updated-11/22/24 12:26 PM KST-brightgreen?style=flat-square" alt="Last Updated on 11/22/24 12:26 PM, Korea Standard Time." /></a>
+    <a href="https://github.com/RangHo/rangho/actions"><img src="https://img.shields.io/badge/Last%20updated-11/22/24 12:30 PM KST-brightgreen?style=flat-square" alt="Last Updated on 11/22/24 12:30 PM, Korea Standard Time." /></a>
 </p>
 
 My name is **RangHo Lee** (and no, that's not my real name), an undergraduate student majoring in **Computer Science and Engineering** and **English Literature and Linguistics** at [Sogang University](https://sogang.ac.kr)! I love learning and trying new things, and of course, building stuff.
@@ -16,7 +16,7 @@ Do feel free to reach me out via:
 [![KakaoTalk Badge](https://img.shields.io/badge/-KakaoTalk-FFCD00?style=flat-square&logo=KakaoTalk&logoColor=3A1D1D)](https://open.kakao.com/o/s9KDhU5c)
 [![Line Badge](https://img.shields.io/badge/-Line-00C300?style=flat-square&logo=Line&logoColor=white)](https://line.me/ti/p/~zu0107)
 [![Telegram Badge](https://img.shields.io/badge/-Telegram-26A5E4?style=flat-square&logo=Telegram&logoColor=white)](https://t.me/RangHo_Lee)
-[![Twitter Badge](https://img.shields.io/badge/-Twitter-1CA0F1?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/RangHo_777)
+[![Bluesky Badge](https://img.shields.io/badge/-Bluesky-0285FF?style=flat-square&logo=Bluesky&logoColor=white)](https://bsky.app/profile/bsky.rangho.moe)
 [![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/juhun-lee-4a1ba2114/)
 [![Discord Badge](https://img.shields.io/badge/-Discord-7289DA?style=flat-square&logo=Discord&logoColor=white)](https://discord.com/users/220386972189982721)
 [![Twitch Badge](https://img.shields.io/badge/-Twitch-9146FF?style=flat-square&logo=Twitch&logoColor=white)](https://www.twitch.tv/rangho)
