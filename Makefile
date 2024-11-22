@@ -1,4 +1,6 @@
-COMMIT_MESSAGE = "chore: update profile [skip ci]"
+GIT_COMMIT_MESSAGE = "chore: update profile [skip ci]"
+GIT_USER_NAME = "github-actions[bot]"
+GIT_USER_EMAIL = "41898282+github-actions[bot]@users.noreply.github.com"
 
 all: build/README.md commit push
 
@@ -6,8 +8,8 @@ build:
 	git clone -b main --single-branch "https://github.com/RangHo/rangho" build
 	( \
 		cd build; \
-		git config --local user.name "github-actions[bot]"; \
-		git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"; \
+		git config --local user.name $(GIT_USER_NAME); \
+		git config --local user.email $(GIT_USER_EMAIL); \
 		git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/RangHo/rangho"; \
 	)
 	rm -f build/README.md
@@ -25,7 +27,7 @@ commit:
 	( \
 		cd build; \
 		git add --all; \
-		git commit -m $(COMMIT_MESSAGE); \
+		git commit -m $(GIT_COMMIT_MESSAGE); \
 	)
 
 push:
