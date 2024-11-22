@@ -29,5 +29,5 @@ docker run \
        --env INPUT_PLUGIN_LANGUAGES_RECENT_LOAD="300" \
        --env INPUT_PLUGIN_LANGUAGES_SECTIONS="most-used" \
        --env INPUT_PLUGIN_LANGUAGES_THRESHOLD="0%" \
-       --volume=/tmp:. \
+       --volume=.:/renders \
        ghcr.io/lowlighter/metrics:latest
