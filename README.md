@@ -6,7 +6,9 @@
     <!-- REPLACE WITH last_updated -->
 </p>
 
-My name is **RangHo Lee** (and no, that's not my real name), an undergraduate student majoring in **Computer Science and Engineering** and **English Literature and Linguistics** at [Sogang University](https://sogang.ac.kr)! I love learning and trying new things, and of course, building stuff.
+My name is **Juhun Lee**, a graduate student working on **System Software Verification** at [Yonsei University](https://yonsei.ac.kr)!
+I also go by my nickname **RangHo** on the Internet.
+I love learning and trying new things, and of course, building stuff!
 
 Do feel free to reach me out via:
 
