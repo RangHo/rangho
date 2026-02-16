@@ -3,7 +3,7 @@
 <p align="center">
     <a href="https://github.com/RangHo/rangho"><img src="https://komarev.com/ghpvc/?username=rangho&label=Profile%20views&color=orange&style=flat-square" alt="Hit icon" /></a>
     <a href="https://keybase.io/rangho"><img src="https://img.shields.io/badge/PGP-7418_ADBA_A9F8_BD15-33A0FF?style=flat-square&logo=Keybase&logoColor=white" alt="PGP key ID" /></a>
-    <a href="https://github.com/RangHo/rangho/actions"><img src="https://img.shields.io/badge/Last%20updated-02/15/26 09:27 PM KST-brightgreen?style=flat-square" alt="Last Updated on 02/15/26 09:27 PM, Korea Standard Time." /></a>
+    <a href="https://github.com/RangHo/rangho/actions"><img src="https://img.shields.io/badge/Last%20updated-02/16/26 10:13 AM KST-brightgreen?style=flat-square" alt="Last Updated on 02/16/26 10:13 AM, Korea Standard Time." /></a>
 </p>
 
 My name is **Juhun Lee**, a graduate student working on **System Software Verification** at [Yonsei University](https://yonsei.ac.kr)!
